@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #202125;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 75%;
+    margin: 16px 4px 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 350px;
+    height: 300px;
+    border: 2px solid #3c4043;
+    background-color: #3c4043;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 8px ;
+    margin-top: 0;
+    position: relative;
+}
+.card h4{
+    color: white;
+}
+.card .imageDp{
+    height: 130px;
+    border-radius: 50%;
+}
+.card img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.icon{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+.icon img{
+    width: 22px;
+    height: 22px;
+    padding: 4px;
+    background-color: royalblue;
+}
+.icon i{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+.right{
+    width: 25%;
+    background-color: white;
+    margin: 16px 4px 0 10px;
+    border-radius: 6px;
+    height: 637px;
+}
+.container-right{
+    height: 600px;
+    margin: 15px 10px;
+}
+.top{
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    border: 2px solid black;
+    height: 50px;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+}
+input{
+    border: none;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+}
+.call{
+    margin: 0 10px;
+}
+.call p{
+    padding: 7px;
+}
+.persons{
+    background-color: white;
+    height: 400px;
+    margin: 0 10px;
+}
+.personData{
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.personData p{
+    font-size: 16px;
+}
+.personData img{
+    border-radius: 50%;
+    width: 35px;
+}
+
+
+.footer{
+    background-color:#202125;
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+.footLeft{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+}
+.footLeft p{
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+.footMid{
+    /* border: 2px solid white; */
+    width: 570px;
+    display: flex;
+    text-align: center;
+}
+.footIcons{
+    /* border: 2px solid red; */
+    width: 550px;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ficon{
+    margin: 0 5px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(57, 56, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footRight{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.footRightIcons i{
+    color: white;
+    padding: 10px;
+}
+
